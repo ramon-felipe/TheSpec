@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheSpec", "src\TheSpec.csproj", "{087C41BF-E1C6-4169-B49C-7A298B47F8AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED3BA96A-69B6-4DE7-A982-DB1307F1C665}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A35D5B64-C3C1-4B21-B86F-9FE9231444C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheSpec.Tests", "tests\TheSpec.Tests\TheSpec.Tests.csproj", "{5762877F-A139-43B4-9B74-E7B41D198588}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{087C41BF-E1C6-4169-B49C-7A298B47F8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{087C41BF-E1C6-4169-B49C-7A298B47F8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{087C41BF-E1C6-4169-B49C-7A298B47F8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{087C41BF-E1C6-4169-B49C-7A298B47F8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5762877F-A139-43B4-9B74-E7B41D198588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5762877F-A139-43B4-9B74-E7B41D198588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5762877F-A139-43B4-9B74-E7B41D198588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5762877F-A139-43B4-9B74-E7B41D198588}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{087C41BF-E1C6-4169-B49C-7A298B47F8AB} = {ED3BA96A-69B6-4DE7-A982-DB1307F1C665}
+		{5762877F-A139-43B4-9B74-E7B41D198588} = {A35D5B64-C3C1-4B21-B86F-9FE9231444C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {061AC521-5894-44AF-862B-44AA91B1E0E2}
+	EndGlobalSection
+EndGlobal
